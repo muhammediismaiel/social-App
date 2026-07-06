@@ -1,0 +1,21 @@
+{
+  "name": "Social-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "concurrently \"tsc --watch\" \"node --watch .\"",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.7.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "concurrently": "^10.0.3",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
